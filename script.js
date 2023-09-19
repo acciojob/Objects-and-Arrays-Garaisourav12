@@ -19,14 +19,4 @@ const cap1 = Object.assign({}, person);
 players.push("New Player");
 person.name = "Updated Name";
 
-// Print the results to verify
-console.log("Original Players Array:", players);
-console.log("Reference (team) to Players Array:", team);
-console.log("Shallow Copy (team1) of Players Array:", team1);
-console.log("Shallow Copy (cap1) of Person Object:", cap1);
 
-window.players = players;
-window.person = person;
-window.team = team;
-window.team1 = team1;
-window.cap1 = cap1;
